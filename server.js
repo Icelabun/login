@@ -9,7 +9,7 @@ var app = express();
 
 // ✅ Connect to MongoDB
 mongoose
-  .connect("mongodb+srv://sinittesfa:sinits@cluster0.cbklp.mongodb.net/authentication?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://icelabun:icelanunnn@cluster0.cbklp.mongodb.net/authentication?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("✅ MongoDB connected successfully"))
   .catch((err) => console.error("❌ MongoDB connection error:", err));
 
